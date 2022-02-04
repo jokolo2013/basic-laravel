@@ -33,7 +33,7 @@
                 <div class="checkbox">
                   <label>
                     <input type="checkbox">
-                    Remember Me ddd
+                    Remember Me
                   </label>
                 </div>
 
