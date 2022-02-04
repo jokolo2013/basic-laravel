@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.btn-primary {
+    background-color: #F77100 !important;
+    border-color: #F77100 !important;
+  }
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus {
+    background-color: #ca5d04 !important;
+    border-color:  #ca5d04 !important;
+  }
+
+body{
+    background-color: #FFF5ED;
+    font-family: 'Prompt', sans-serif !important;
+}
+.footer {
+    position: fixed;
+    padding-top : 1%;
+    padding-bot : 1%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #454545;
+    color: white;
+    text-align: center;
+}
+
+.question-template {
+    width: auto;
+    height: auto;
+    background-color: #FFF5ED;
+    overflow:auto;
+}
+
+.Pcolor-button{
+    background-color: #F77100;
+}
