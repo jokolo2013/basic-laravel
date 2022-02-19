@@ -20,7 +20,7 @@
         <div class="col-lg-4"></div>
         <div class="col-lg-4"></div>
       </div>
-    
+
       <div class="row" style="background-color:#FFFFFF">
         <div class="col-lg-3 mt-2 ">
         </div>
@@ -40,23 +40,23 @@
               <div class="row mt-2 mb-2">
                 <div class="col">
                   <label for="">สถานะบัญชี</label>
-                    <input type="text" class="form-control" name="" id="" disabled>
+                    <input type="text" class="form-control" name="id_role" id="id_role" value="{{auth()->user()->id_role}}" disabled>
                 </div>
               </div>
           </div>
         </div>
         <div class="col-lg-3 mt-2 ">
           <div class="grid">
-            
+
               <div class="row">
                 <div class="form-row w-100  mt-2">
                   <div class="col">
                     <label for="">ชื่อ</label>
-                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                    <input type="text" class="form-control" name="Fname" id="Fname" aria-describedby="helpId" placeholder="" value="{{auth()->user()->Fname}}">
                   </div>
                   <div class="col">
                     <label for="">นามสกุล</label>
-                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                    <input type="text" class="form-control" name="Lname" id="Lname" aria-describedby="helpId" placeholder="" value="{{auth()->user()->Lname}}">
                   </div>
                 </div>
               </div>
@@ -64,14 +64,14 @@
               <div class="row mt-2">
                 <div class="form-group w-100">
                   <label for="">Email</label>
-                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                  <input type="text" class="form-control" name="email" id="email" aria-describedby="helpId" placeholder="" value="{{auth()->user()->email}}">
                 </div>
               </div>
 
               <div class="row">
                 <div class="form-group w-100">
                   <label for="">เบอร์โทรศัพท์</label>
-                  <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                  <input type="text" class="form-control" name="phone" id="phone" aria-describedby="helpId" placeholder="" value="{{auth()->user()->phone}}">
                 </div>
               </div>
 
@@ -106,7 +106,7 @@
           </div>
         </div>
         <div class="col-lg-3 mt-2"></div>
-      </div>  
+      </div>
 
     <!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
@@ -123,7 +123,7 @@
         </div>
     </div>
 </div>
-     
+
     </div>
     @include('footer')
     <!-- Optional JavaScript -->
